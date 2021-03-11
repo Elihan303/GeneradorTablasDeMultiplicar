@@ -18,8 +18,8 @@ const generarTabla = () => {
         if(numero==0){
             break;
         }
-        proceso.innerHTML += `<td><h5>${numero}x${i} = </h5></td>`;
-        resultado.innerHTML += `<td><h5> ${numero * i}</h5></td>`;
+        proceso.innerHTML += `<td><h4>${numero}x${i} = </h4></td>`;
+        resultado.innerHTML += `<td><h4> ${numero * i}</h4></td>`;
     }
 
 }
